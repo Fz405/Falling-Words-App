@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">falling_words</string>
+    <string name="game_over">Game Over</string>
+    <string name="retry">Retry</string>
+    <string name="zero_value">0</string>
+    <string name="correct">Correct</string>
+    <string name="wrong">Not Correct</string>
+    <string name="correctTitle">Correct</string>
+    <string name="wrongTitle">Wrong</string>
+    <string name="missedTitle">Missed</string>
+</resources>

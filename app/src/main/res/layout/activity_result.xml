@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bordered_rectangle"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/game_over"
+        android:textAllCaps="true"
+        android:textColor="@color/material_dynamic_primary20"
+        android:textSize="@dimen/text_size_extra_large"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/score_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Score 10/20"
+        android:textColor="@color/material_dynamic_primary0"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/retry_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score_value"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:background="@drawable/bordered_rectangle"
+        android:text="@string/retry"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>
